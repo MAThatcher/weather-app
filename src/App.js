@@ -22,7 +22,7 @@ function App() {
  
   const dateBuilder = (d) => {
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
     let day = days[d.getDay()]
     let date = d.getDate();
@@ -43,6 +43,7 @@ function App() {
         : 'app')
       : 'app'}>
       <main>
+      <br/><br/>
         <div className="search-box">
           <input 
           type="text"
